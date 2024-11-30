@@ -67,8 +67,8 @@ jobs:
           - 14.x
           # FIXME: it seems problems with mongodb driver version preclude using Node 16+
           # see details at https://github.com/telefonicaid/fiware-sth-comet/pull/580#issuecomment-1160353123
-          #- 16.x
-          #- 18.x 
+          - 16.x
+          - 18.x 
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
